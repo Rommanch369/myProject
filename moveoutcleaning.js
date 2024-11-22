@@ -1,4 +1,4 @@
-<!-- important script --><script>jQuery(document).ready(function($) {
+jQuery(document).ready(function($) {
     function calculateCost(area) {
         var cost = 0;
       
@@ -77,4 +77,4 @@ $('#time-frame').on('selectmenuchange', function() {
         var selectedTime = $('#time-frame option:selected').text();
         $('#selectedTime').text(selectedTime);
     });
-});</script>
+});
